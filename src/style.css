@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+#root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #F55A5A;
+    color: white;
+    width: 100%;
+}
+
+.nav--container > .title {
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.journey--container {
+    display: flex;
+    width: 650px;
+    padding:35px;
+
+}
+
+.journey--img {
+    height: auto;
+    width: 30%;
+    border-radius: 15px;
+    }
+
+.journey--info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.location--el{
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+
+.location--el > a {
+    color: grey;
+    margin-left: 5px;
+    font-size: .8rem;
+    text-transform: none
+}
+
+.journey--info > h2, h4 {
+    margin-bottom: .8em;
+}
+
+.fa-map-marker-alt {
+    color: red;
+    margin-right: 5px
+}
